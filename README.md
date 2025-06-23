@@ -1,29 +1,56 @@
-🥗 Track Calories – Machine Learning Project
-This project uses Machine Learning to predict the number of calories burned based on various physical activity features such as duration, heart rate, body measurements, and more. It aims to help users monitor their fitness progress and daily calorie expenditure more accurately.
+# 🥗 Track Calories – Machine Learning Project
 
-🚀 Features:
-Data preprocessing and cleaning
+A machine learning application that predicts calories burned based on biometric and activity data. This project demonstrates the full ML pipeline from data preprocessing and model training to evaluation and deployment, offering a practical tool for fitness tracking.
 
-Feature engineering and selection
+---
 
-Model training using regression algorithms (e.g., Linear Regression, Random Forest)
+## 📌 Project Overview
 
-Model evaluation with metrics like MAE, RMSE
+Tracking calories manually can be time-consuming and inaccurate. This project uses machine learning to build a predictive model that estimates the number of calories burned based on physical activity and personal health metrics.
 
-Interactive prediction interface (Streamlit/Flask if included)
+---
 
-Visualizations for better data understanding
+## 💡 Features
 
-📁 Technologies Used:
-Python
+- Exploratory Data Analysis (EDA)
+- Feature engineering and selection
+- Model training using regression algorithms
+- Model performance evaluation (MAE, RMSE, R²)
+- Interactive calorie prediction (via Streamlit or Flask)
+- Visualizations for data insights
 
-Pandas, NumPy
+---
 
-Scikit-learn
+## 🧠 Algorithms Used
 
-Matplotlib, Seaborn
+- Linear Regression
+- Random Forest Regressor
+- XGBoost (optional)
 
-(Optional: Streamlit/Flask for UI)
+---
 
-📊 Dataset:
-The dataset includes user activity and biometric data used to train and test the calorie prediction model. 
+## 📊 Dataset
+
+The dataset contains the following features:
+- Age, Height, Weight
+- Duration, Heart Rate, Body Temperature
+- Calories burned (target)
+
+> *If publicly available, add dataset link here.*  
+> Example: [Calories Burned Dataset – Kaggle](https://www.kaggle.com/datasets/fmohajeri/calories)
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool           | Purpose                          |
+|----------------|----------------------------------|
+| Python         | Programming Language             |
+| Pandas, NumPy  | Data manipulation                |
+| Scikit-learn   | Machine Learning Models          |
+| Matplotlib, Seaborn | Data Visualization         |
+| Streamlit/Flask | Model Deployment (UI)           |
+| Jupyter Notebook | Development Environment       |
+
+---
+
