@@ -36,8 +36,7 @@ The dataset contains the following features:
 - Duration, Heart Rate, Body Temperature
 - Calories burned (target)
 
-> *If publicly available, add dataset link here.*  
-> Example: [Calories Burned Dataset – Kaggle](https://www.kaggle.com/datasets/fmohajeri/calories)
+
 
 ---
 
